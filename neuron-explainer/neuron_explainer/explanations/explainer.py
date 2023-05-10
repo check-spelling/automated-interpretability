@@ -351,7 +351,7 @@ class TokenSpaceRepresentationExplainer(NeuronExplainer):
     set of experiments, we compute the average activation for each neuron conditional on each token
     that appears in an internet text corpus. We then sort the tokens by their average activation,
     and show 50 of the top 100 tokens. Other techniques that could be used include taking the top
-    tokens in the logit lens or tuned lens representations of a neuron.
+    tokens in the logic lens or tuned lens representations of a neuron.
     """
 
     def __init__(
